@@ -20,7 +20,7 @@ function App() {
         </div>
 
         <button 
-          onClick={() => alert('Tailwind CSS funcionando com Docker!')}
+          //={() => alert('Tailwind CSS funcionando com Docker!')}
           className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2.5 px-4 rounded-lg transition duration-200 shadow-sm"
         >
           Iniciar Registro de Chave

@@ -225,3 +225,4 @@ coverage/
 __tests__/coverage/
 
 *-lock.json
+*.lock
