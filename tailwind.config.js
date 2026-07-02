@@ -23,8 +23,15 @@ module.exports = {
           'disabled': '#E2E8F0',  // bg-disabled (conforme vimos antes)
         },
         input: {
+
+          bgDefault: '#FFFFFF',       // Fundo branco
+          // Cores do Input Default
+          
+          textDefault: '#212121',     // Cor do texto digitado
+          placeholder: '#94A3B8',     // Cor do texto de exemplo
+          borderDefault: '#CBD5E1',   // Borda suave sem foco
+
           // Cores do Input ATIVO
-          bgActive: '#FFFFFF',      // Fundo branco puro para digitação
           textActive: '#212121',    // Texto escuro (conforto visual para leitura)
           borderActive: '#0D47A1',  // Borda cinza clara padrão
           placeholder: '#94A3B8',   // Placeholder cinza azulado suave

@@ -16,10 +16,19 @@ export function Checkbox({ id, label }: Props) {
                 type="checkbox"
                 name="checkbox-one"
                 id="checkbox-one"
-                className="bg-transparent hover:outline-none cursor-pointer 
-    size-6 border-3 border-amber-500 focus:outline-none rounded-md" />
+                className="
+                            bg-transparent 
+                            hover:outline-none 
+                            cursor-pointer
+                            mr-2 
+                            text-input-textDefault
+                            size-6 border-3  
+                            focus:ring-0 focus:ring-transparent focus:outline-none focus:shadow-none
+                            rounded-md
+                        "
+            />
 
-            {label ? <label htmlFor={id}>{label}</label> : <></>}
+            {label ? <label className="font-bold" htmlFor={id}>{label}</label> : <></>}
         </div>
     )
 }
